@@ -26,7 +26,7 @@ public class PersonaProviderImpl implements PersonaProvider {
     @Override
     public Persona findPersona(Sign sign) {
         for (Persona zodiacPersona : personas) {
-            if (zodiacPersona.Sign() == sign) {
+            if (zodiacPersona.sign() == sign) {
                 return zodiacPersona;
             }
         }

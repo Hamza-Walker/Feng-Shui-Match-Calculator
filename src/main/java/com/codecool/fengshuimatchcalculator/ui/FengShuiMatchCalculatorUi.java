@@ -28,8 +28,9 @@ public class FengShuiMatchCalculatorUi {
     }
 
     private LocalDate getBirthDate(int person) {
-        // Implement the method to get the birthdate for each person
-        return null;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter birthdate for Person " + person + " (YYYY-MM-DD): ");
+        String input = scanner.nextLine();
+        return LocalDate.parse(input);
     }
 }
-
