@@ -13,6 +13,6 @@ public enum Sign
     DRAGON,
     SNAKE,
     HORSE,
-    GOAT
+    SHEEP
 }
 
